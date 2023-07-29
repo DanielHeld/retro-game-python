@@ -47,7 +47,7 @@ class MainMenu:
     def drawMenu(self):
         self.screen.fill("white")
         myFont = pygame.font.SysFont('Arial', 100)
-        textSurface = myFont.render("Tetris", False, "red")
+        textSurface = myFont.render("Retro Game", False, "red")
         self.screen.blit(textSurface, (Globals.SCREEN_WIDTH/2 - textSurface.get_width()/2, 30))
 
         myFont = pygame.font.SysFont('Comic', 70)
