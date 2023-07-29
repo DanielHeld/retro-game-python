@@ -1,6 +1,5 @@
 # Retro game Python
-A simple retro game programed in Python.
-I created this little game to learn the basics of Python during my studies.
+A simple retro game programed to learn the basics of Python during my studies.
 
 ![game screenshot](media/game_screenshot.png)
 
