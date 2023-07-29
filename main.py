@@ -14,7 +14,7 @@ screen = pygame.display.set_mode((Globals.SCREEN_WIDTH, Globals.SCREEN_HEIGHT))
 mainMenu = MainMenu(screen)
 optionsMenu = OptionsMenu(screen)
 
-mixer.music.load("tetrismusic.mp3")
+mixer.music.load("media/tetrismusic.mp3")
 mixer.music.play(-1)
 
 field = Field()
@@ -61,7 +61,7 @@ def runGame (block1):
             block1 = Block(random.randint(0, 6))  # random.randint(0, 6)
             if block1.checkCollisionField(field):
                 Globals.GAME_STATE = Globals.GAME_OVER
-                gameOverSound = mixer.Sound("gameover.wav")
+                gameOverSound = mixer.Sound("media/gameover.wav")
                 gameOverSound.play()
                 pygame.display.update()
 

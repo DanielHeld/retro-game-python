@@ -38,7 +38,7 @@ class Field:
             if self.checkRow(y):
                 print("row is full" + str(y))
                 self.deleteRow(y)
-                fullRowSound = mixer.Sound("fullrow.mp3")
+                fullRowSound = mixer.Sound("media/fullrow.mp3")
                 fullRowSound.play()
 
     def deleteRow(self, y):

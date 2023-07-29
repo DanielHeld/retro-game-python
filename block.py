@@ -9,7 +9,7 @@ from globals import Globals
 class Block:
 
     def __init__(self, typOfBlock):
-        self.dropSound = mixer.Sound("drop.mp3")
+        self.dropSound = mixer.Sound("media/drop.mp3")
         self.speedX = 0
         self.roundCounter = 0
         # vertical speed
