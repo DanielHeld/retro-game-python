@@ -1,5 +1,5 @@
-# Tetris Python
-A simple retro tetris game programed in Python.
+# Retro game Python
+A simple retro game programed in Python.
 I created this little game to learn the basics of Python during my studies.
 
 ![game screenshot](media/game_screenshot.png)
